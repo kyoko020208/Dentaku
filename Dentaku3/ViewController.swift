@@ -26,8 +26,8 @@ class ViewController: UIViewController {
     //数値もしくは演算子が押されるとtrueに変わる
     var userInputting: Bool = false
     
-    //InputLが入っているかどうか
-    var isStacked: Bool = false
+    //結果の値
+    var resultValue: Double = 0.0
     
     //演算子ボタンを押した後かどうか
     var afterCalc: Bool = false
@@ -57,15 +57,19 @@ class ViewController: UIViewController {
                 InputNum = (sender.titleLabel?.text)!
             }
         } else {
-            InputNum = Formula.text!
-            InputNum += (sender.titleLabel?.text)!
+            InputNum = (sender.titleLabel?.text)!
         }
-//        
-//        if afterCalc == false {
-//            InputL = Double (InputNum + (sender.titleLabel?.text)!)!
-//        }
+        //項に値を入力
+        if afterCalc == false {
+            InputL += Double (InputNum)!
+            print(InputL)
+        } else {
+            InputR += Double (InputNum)!
+            print(InputR)
+        }
         //Formulaに出力
-        Formula.text = InputNum
+        Formula.text = Formula.text! + InputNum
+        
     }
     
     //四則演算の入力処理
@@ -78,21 +82,29 @@ class ViewController: UIViewController {
             InputSym = (sender.titleLabel?.text)!
         }
         
-        Formula.text = InputNum + InputSym
-        
+        afterCalc = true
+        Formula.text = Formula.text! + InputSym
         
     }
     
     
     @IBAction func Calculate(_ sender: UIButton) {
-        //        switch InputSym {
-        //        case "+":
-        //            stackedValue += Result
-        //        }
+        switch InputSym {
+        case "+":
+            resultValue = InputL + InputR
+        case "-":
+            resultValue = InputL - InputR
+        case "×":
+            resultValue = InputL * InputR
+        case "÷":
+            resultValue = InputL / InputR
+        default: break
+        }
+        
+        Result.text = String(resultValue)
+        afterCalc = false
+        userInputting = false
     }
-    
-    
-    
     
 }
 

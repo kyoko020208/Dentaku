@@ -162,7 +162,7 @@
                                 <rect key="frame" x="263" y="261" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="−"/>
+                                <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="Symbol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0an-u8-h74"/>
                                 </connections>
