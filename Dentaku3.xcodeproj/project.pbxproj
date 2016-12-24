@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45746D61E0CC086009DE458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45746D51E0CC086009DE458 /* AppDelegate.swift */; };
+		D45746D81E0CC086009DE458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45746D71E0CC086009DE458 /* ViewController.swift */; };
+		D45746DB1E0CC086009DE458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45746D91E0CC086009DE458 /* Main.storyboard */; };
+		D45746DD1E0CC086009DE458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45746DC1E0CC086009DE458 /* Assets.xcassets */; };
+		D45746E01E0CC086009DE458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45746DE1E0CC086009DE458 /* LaunchScreen.storyboard */; };
+		D45746EB1E0CC087009DE458 /* Dentaku3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45746EA1E0CC087009DE458 /* Dentaku3Tests.swift */; };
+		D45746F61E0CC087009DE458 /* Dentaku3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45746F51E0CC087009DE458 /* Dentaku3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45746E71E0CC087009DE458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45746CA1E0CC086009DE458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45746D11E0CC086009DE458;
+			remoteInfo = Dentaku3;
+		};
+		D45746F21E0CC087009DE458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45746CA1E0CC086009DE458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45746D11E0CC086009DE458;
+			remoteInfo = Dentaku3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45746D21E0CC086009DE458 /* Dentaku3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dentaku3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45746D51E0CC086009DE458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45746D71E0CC086009DE458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D45746DA1E0CC086009DE458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45746DC1E0CC086009DE458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45746DF1E0CC086009DE458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45746E11E0CC086009DE458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45746E61E0CC087009DE458 /* Dentaku3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dentaku3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45746EA1E0CC087009DE458 /* Dentaku3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dentaku3Tests.swift; sourceTree = "<group>"; };
+		D45746EC1E0CC087009DE458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45746F11E0CC087009DE458 /* Dentaku3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dentaku3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45746F51E0CC087009DE458 /* Dentaku3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dentaku3UITests.swift; sourceTree = "<group>"; };
+		D45746F71E0CC087009DE458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45746CF1E0CC086009DE458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45746E31E0CC087009DE458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45746EE1E0CC087009DE458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45746C91E0CC086009DE458 = {
+			isa = PBXGroup;
+			children = (
+				D45746D41E0CC086009DE458 /* Dentaku3 */,
+				D45746E91E0CC087009DE458 /* Dentaku3Tests */,
+				D45746F41E0CC087009DE458 /* Dentaku3UITests */,
+				D45746D31E0CC086009DE458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45746D31E0CC086009DE458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45746D21E0CC086009DE458 /* Dentaku3.app */,
+				D45746E61E0CC087009DE458 /* Dentaku3Tests.xctest */,
+				D45746F11E0CC087009DE458 /* Dentaku3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45746D41E0CC086009DE458 /* Dentaku3 */ = {
+			isa = PBXGroup;
+			children = (
+				D45746D51E0CC086009DE458 /* AppDelegate.swift */,
+				D45746D71E0CC086009DE458 /* ViewController.swift */,
+				D45746D91E0CC086009DE458 /* Main.storyboard */,
+				D45746DC1E0CC086009DE458 /* Assets.xcassets */,
+				D45746DE1E0CC086009DE458 /* LaunchScreen.storyboard */,
+				D45746E11E0CC086009DE458 /* Info.plist */,
+			);
+			path = Dentaku3;
+			sourceTree = "<group>";
+		};
+		D45746E91E0CC087009DE458 /* Dentaku3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D45746EA1E0CC087009DE458 /* Dentaku3Tests.swift */,
+				D45746EC1E0CC087009DE458 /* Info.plist */,
+			);
+			path = Dentaku3Tests;
+			sourceTree = "<group>";
+		};
+		D45746F41E0CC087009DE458 /* Dentaku3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D45746F51E0CC087009DE458 /* Dentaku3UITests.swift */,
+				D45746F71E0CC087009DE458 /* Info.plist */,
+			);
+			path = Dentaku3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45746D11E0CC086009DE458 /* Dentaku3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45746FA1E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3" */;
+			buildPhases = (
+				D45746CE1E0CC086009DE458 /* Sources */,
+				D45746CF1E0CC086009DE458 /* Frameworks */,
+				D45746D01E0CC086009DE458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dentaku3;
+			productName = Dentaku3;
+			productReference = D45746D21E0CC086009DE458 /* Dentaku3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D45746E51E0CC087009DE458 /* Dentaku3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45746FD1E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3Tests" */;
+			buildPhases = (
+				D45746E21E0CC087009DE458 /* Sources */,
+				D45746E31E0CC087009DE458 /* Frameworks */,
+				D45746E41E0CC087009DE458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45746E81E0CC087009DE458 /* PBXTargetDependency */,
+			);
+			name = Dentaku3Tests;
+			productName = Dentaku3Tests;
+			productReference = D45746E61E0CC087009DE458 /* Dentaku3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D45746F01E0CC087009DE458 /* Dentaku3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45747001E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3UITests" */;
+			buildPhases = (
+				D45746ED1E0CC087009DE458 /* Sources */,
+				D45746EE1E0CC087009DE458 /* Frameworks */,
+				D45746EF1E0CC087009DE458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45746F31E0CC087009DE458 /* PBXTargetDependency */,
+			);
+			name = Dentaku3UITests;
+			productName = Dentaku3UITests;
+			productReference = D45746F11E0CC087009DE458 /* Dentaku3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45746CA1E0CC086009DE458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kyoko Otsuka";
+				TargetAttributes = {
+					D45746D11E0CC086009DE458 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D45746E51E0CC087009DE458 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D45746D11E0CC086009DE458;
+					};
+					D45746F01E0CC087009DE458 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D45746D11E0CC086009DE458;
+					};
+				};
+			};
+			buildConfigurationList = D45746CD1E0CC086009DE458 /* Build configuration list for PBXProject "Dentaku3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45746C91E0CC086009DE458;
+			productRefGroup = D45746D31E0CC086009DE458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45746D11E0CC086009DE458 /* Dentaku3 */,
+				D45746E51E0CC087009DE458 /* Dentaku3Tests */,
+				D45746F01E0CC087009DE458 /* Dentaku3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45746D01E0CC086009DE458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45746E01E0CC086009DE458 /* LaunchScreen.storyboard in Resources */,
+				D45746DD1E0CC086009DE458 /* Assets.xcassets in Resources */,
+				D45746DB1E0CC086009DE458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45746E41E0CC087009DE458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45746EF1E0CC087009DE458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45746CE1E0CC086009DE458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45746D81E0CC086009DE458 /* ViewController.swift in Sources */,
+				D45746D61E0CC086009DE458 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45746E21E0CC087009DE458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45746EB1E0CC087009DE458 /* Dentaku3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45746ED1E0CC087009DE458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45746F61E0CC087009DE458 /* Dentaku3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45746E81E0CC087009DE458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45746D11E0CC086009DE458 /* Dentaku3 */;
+			targetProxy = D45746E71E0CC087009DE458 /* PBXContainerItemProxy */;
+		};
+		D45746F31E0CC087009DE458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45746D11E0CC086009DE458 /* Dentaku3 */;
+			targetProxy = D45746F21E0CC087009DE458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45746D91E0CC086009DE458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45746DA1E0CC086009DE458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45746DE1E0CC086009DE458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45746DF1E0CC086009DE458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45746F81E0CC087009DE458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45746F91E0CC087009DE458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45746FB1E0CC087009DE458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dentaku3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.dcm.com.Dentaku3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D45746FC1E0CC087009DE458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dentaku3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.dcm.com.Dentaku3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D45746FE1E0CC087009DE458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dentaku3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.dcm.com.Dentaku3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dentaku3.app/Dentaku3";
+			};
+			name = Debug;
+		};
+		D45746FF1E0CC087009DE458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dentaku3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.dcm.com.Dentaku3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dentaku3.app/Dentaku3";
+			};
+			name = Release;
+		};
+		D45747011E0CC087009DE458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dentaku3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.dcm.com.Dentaku3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dentaku3;
+			};
+			name = Debug;
+		};
+		D45747021E0CC087009DE458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dentaku3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.dcm.com.Dentaku3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dentaku3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45746CD1E0CC086009DE458 /* Build configuration list for PBXProject "Dentaku3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45746F81E0CC087009DE458 /* Debug */,
+				D45746F91E0CC087009DE458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45746FA1E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45746FB1E0CC087009DE458 /* Debug */,
+				D45746FC1E0CC087009DE458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45746FD1E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45746FE1E0CC087009DE458 /* Debug */,
+				D45746FF1E0CC087009DE458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45747001E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45747011E0CC087009DE458 /* Debug */,
+				D45747021E0CC087009DE458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45746CA1E0CC086009DE458 /* Project object */;
+}
