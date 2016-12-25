@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     var InputSym: String = ""
     
     //左項
-    var InputL: Double = 0.0
+    var InputL: String = ""
     
     //右項
-    var InputR: Double = 0.0
+    var InputR: String = ""
     
     //何も入力されていない時はfalse
     //数値もしくは演算子が押されるとtrueに変わる
@@ -59,12 +59,13 @@ class ViewController: UIViewController {
         } else {
             InputNum = (sender.titleLabel?.text)!
         }
-        //項に値を入力
+        
+        //項に値を設定
         if afterCalc == false {
-            InputL += Double (InputNum)!
+            InputL += InputNum
             print(InputL)
         } else {
-            InputR += Double (InputNum)!
+            InputR += InputNum
             print(InputR)
         }
         //Formulaに出力
@@ -89,21 +90,59 @@ class ViewController: UIViewController {
     
     
     @IBAction func Calculate(_ sender: UIButton) {
-        switch InputSym {
+        switch InputSym { //演算子によって条件分け
         case "+":
-            resultValue = InputL + InputR
+            resultValue = Double(InputL)! + Double(InputR)!
         case "-":
-            resultValue = InputL - InputR
+            resultValue = Double(InputL)! - Double(InputR)!
         case "×":
-            resultValue = InputL * InputR
+            resultValue = Double(InputL)! * Double(InputR)!
         case "÷":
-            resultValue = InputL / InputR
+            if InputR == "0" {
+            print("error")
+            return
+            } else {
+            resultValue = Double(InputL)! / Double(InputR)!
+            }
         default: break
         }
         
+        //結果をresultに表示
         Result.text = String(resultValue)
+        
+        //初期値に戻す
         afterCalc = false
         userInputting = false
+    }
+    
+    @IBAction func DeleteOne(_ sender: UIButton) {
+        //１文字ずつ文字を消す処理
+        if afterCalc == false {
+            let _InputL :NSMutableString = NSMutableString(string: InputL)
+            _InputL.deleteCharacters(in: NSRange(location: _InputL.length - 1, length: 1))
+            InputL = String(_InputL)
+        } else {
+            let _InputR :NSMutableString = NSMutableString(string: InputR)
+            _InputR.deleteCharacters(in: NSRange(location: _InputR.length - 1, length: 1))
+            InputR = String(_InputR)
+            
+        }
+        let _Formula :NSMutableString = NSMutableString(string: Formula.text!)
+        _Formula.deleteCharacters(in: NSRange(location: _Formula.length - 1, length: 1))
+        Formula.text = String(_Formula)
+    }
+    
+    
+    @IBAction func DeleteAll(_ sender: UIButton) {
+        //Cボタンを押すと値入力が一気にクリアされる
+        //ただし計算結果は残る
+        InputNum = ""
+        InputSym = ""
+        InputR = ""
+        InputL = ""
+        userInputting = false
+        afterCalc = false
+        Formula.text = ""
     }
     
 }
