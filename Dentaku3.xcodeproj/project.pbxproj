@@ -14,6 +14,7 @@
 		D45746E01E0CC086009DE458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45746DE1E0CC086009DE458 /* LaunchScreen.storyboard */; };
 		D45746EB1E0CC087009DE458 /* Dentaku3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45746EA1E0CC087009DE458 /* Dentaku3Tests.swift */; };
 		D45746F61E0CC087009DE458 /* Dentaku3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45746F51E0CC087009DE458 /* Dentaku3UITests.swift */; };
+		D45747061E0F8F0D009DE458 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45747051E0F8F0D009DE458 /* Calc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D45746F11E0CC087009DE458 /* Dentaku3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dentaku3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45746F51E0CC087009DE458 /* Dentaku3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dentaku3UITests.swift; sourceTree = "<group>"; };
 		D45746F71E0CC087009DE458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45747051E0F8F0D009DE458 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D45746DC1E0CC086009DE458 /* Assets.xcassets */,
 				D45746DE1E0CC086009DE458 /* LaunchScreen.storyboard */,
 				D45746E11E0CC086009DE458 /* Info.plist */,
+				D45747051E0F8F0D009DE458 /* Calc.swift */,
 			);
 			path = Dentaku3;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45746D81E0CC086009DE458 /* ViewController.swift in Sources */,
+				D45747061E0F8F0D009DE458 /* Calc.swift in Sources */,
 				D45746D61E0CC086009DE458 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				D45746FC1E0CC087009DE458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45746FD1E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D45746FF1E0CC087009DE458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45747001E0CC087009DE458 /* Build configuration list for PBXNativeTarget "Dentaku3UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D45747021E0CC087009DE458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
